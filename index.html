@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+
+
+    <!--css-->
+    <link rel="stylesheet" href="stylesheet/style.css">
+
+    <title>Taco Paco!</title>
+</head>
+
+<body>
+
+
+    <!--navbar begins-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <div class="navbarf navbar-collapse justify-content-center" id="navbarNav">
+                <div class="navbar-nav d-flex justify-content-center">
+                    <a class="nav-link lh44" href="#menu_order">View Menu</a>
+                    <a class="navbar-brand" href="#">Taco Paco</a>
+                    <a class="nav-link lh44" href="#form">Contact us!</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--navbar ends-->
+
+    <hr>
+
+    <!-- image slide starts-->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/taco_slide1.jpg" class="d-block w-100" alt="taco">
+                <div class="centered-text carousel-caption d-none d-md-block">
+                    <h1>♛Delicious Tacos for you!♛</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/taco_slide2.jpg" class="d-block w-100" alt="taco">
+                <div class="centered-text carousel-caption d-none d-md-block">
+                    <h1>♛Delicious Tacos for you!♛</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/taco_slide3.jpg" class="d-block w-100" alt="taco">
+                <div class="centered-text carousel-caption d-none d-md-block">
+                    <h1>♛Delicious Tacos for you!♛</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- image slide ends-->
+
+
+    <hr>
+
+    <!--Menu starts-->
+    <div id="menu_order">
+
+        <h2 class="menu_lang">Our Menu!</h2>
+
+        <div class="row">
+
+            <!--menu 1-->
+            <div class="col-sm-6">
+                <div class="card text-center" style="width: 20rem; height: 30rem;">
+                    <img src="images/carnitas_taco.png" class="card-img-top" alt="carnitas taco">
+                    <div class="card-body">
+                        <h5 class="card-title">Carnitas Taco</h5>
+                        <p class="card-text">If you love good Mexican food, carnitas tacos are probably no stranger to you. </p>
+                        <a href="#" class="btn btn-primary">Order now</a>
+                    </div>
+                </div>
+            </div>
+            <!--menu 1 ends-->
+
+            <!--menu 2-->
+            <div class="col-sm-6">
+                <div class="card text-center" style="width: 20rem; height: 30rem;">
+                    <img src="images/alpastor_taco.png" class="card-img-top" alt="barbacoa taco">
+                    <div class="card-body">
+                        <h5 class="card-title">Al Pastor Taco</h5>
+                        <p class="card-text">Also known as tacos al pastor, is a taco made with spit-grilled pork</p>
+                        <a href="#" class="btn btn-primary">Order now</a>
+                    </div>
+                </div>
+            </div>
+            <!--menu 2 ends-->
+
+            <!--menu 3-->
+            <div class="col-sm-6">
+                <div class="card text-center" style="width: 20rem; height: 30rem;">
+                    <img src="images/birria_taco.png" class="card-img-top" alt="birria taco">
+                    <div class="card-body">
+                        <h5 class="card-title">Birria Taco</h5>
+                        <p class="card-text"> It consists of the braised meat inside a corn tortilla that's been pan-fried in the fat that sits at the top of the birria.</p>
+                        <a href="#" class="btn btn-primary">Order now</a>
+                    </div>
+                </div>
+            </div>
+            <!--menu 3 ends-->
+
+            <!--menu 4-->
+            <div class="col-sm-6">
+                <div class="card text-center" style="width: 20rem; height: 30rem;">
+                    <img src="images/lengua_taco.png" class="card-img-top" alt="lengua taco">
+                    <div class="card-body">
+                        <h5 class="card-title">Lengua Taco</h5>
+                        <p class="card-text">Classic Mexican tacos de lengua, beef tongue which has been braised with garlic and onions, finely chopped, and served with salsa verde and avocados..</p>
+                        <a href="#" class="btn btn-primary">Order now</a>
+                    </div>
+                </div>
+            </div>
+            <!--menu 4 ends-->
+
+        </div>
+    </div>
+    <!--Menu ends-->
+
+    <hr>
+
+    <!--contact form begins-->
+    <div id="form">
+
+        <h2>Contact Us!</h2>
+
+        <div class="form-style-6">
+            <form>
+                <input type="text" name="field1" placeholder="Your Name" />
+                <input type="email" name="field2" placeholder="Email Address" />
+                <textarea name="field3" placeholder="Type your Message"></textarea>
+                <input type="submit" value="Send" />
+            </form>
+        </div>
+
+    </div>
+    <!--contact form ends-->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
